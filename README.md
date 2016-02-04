@@ -8,4 +8,4 @@ MongoDB のデータ専用コンテナ
 
 * docker build コマンドを実行します。
 
-	$ docker build -t my-mongo-data .
+	'$ docker build -t my-mongo-data .'
