@@ -6,4 +6,4 @@ MongoDB のデータ専用コンテナ
 
 * Dockerfileの存在するディレクトリに移動します。
 * docker build コマンドを実行します。
-	$ docker build -t my-mongo-data .
+    $ docker build -t my-mongo-data .
