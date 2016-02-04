@@ -1,10 +1,9 @@
 # docker-mongo-data
-MongoDB Data Only Container
+MongoDB のデータ専用コンテナ
 
 ## DockerfileからのDockerイメージの作成方法
-自分のマシンでDockerfileからのDockerイメージの作成する方法について説明します。 
-Dockerfileの存在するディレクトリに移動して下さい。 i
-次に、docker build コマンドを実行して下さい。
+自分のマシンでDockerfileからDockerイメージを作成する方法について説明します。 
 
-### MongoDB のデータ専用コンテナイメージの作成
+*Dockerfileの存在するディレクトリに移動します。
+*docker build コマンドを実行します。
 	$ docker build -t my-mongo-data .
